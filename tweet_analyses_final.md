@@ -11,10 +11,10 @@ import datetime
 import time
 
 #Twitter API credentials
-consumer_key = "GvauzqzfE2o1eqIHxk5X8q38u"
-consumer_secret = "cBfUvQ37EbQKPP2FjyhqVxTyCrBqnlEa8bts81C5SWOUDxpXsA"
-access_token = "980991539739484160-jivEu1NrRKe7rLsHr3ZBBf2YRtYSWab"
-access_token_secret = "GPcMoprjKx5D7lhvA3Xj10diRnhcHBLsowELyfE1EuoHN"
+consumer_key = 
+consumer_secret = 
+access_token = 
+access_token_secret = 
 
 
 
@@ -259,7 +259,7 @@ while(True):
 
     RateLimitError                            Traceback (most recent call last)
 
-    <ipython-input-14-af9c8fd86767> in <module>()
+    <ipython-input-3-5540634de035> in <module>()
           2 while(True):
           3     WhoThere()
     ----> 4     gettweets()
@@ -267,7 +267,7 @@ while(True):
           6     plot()
 
 
-    <ipython-input-13-badaa9b42597> in gettweets()
+    <ipython-input-2-badaa9b42597> in gettweets()
          77 
          78         #all subsiquent requests use the max_id param to prevent duplicates
     ---> 79         new_tweets = api.search(target_term, count=100,max_id=oldest)
